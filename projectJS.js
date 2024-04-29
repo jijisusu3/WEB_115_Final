@@ -108,7 +108,7 @@ function generateMealPlan() {
                       id="meal-submit-button"
                       class="input-submit bg-blue-300 ml-2"
               >
-                확인
+                Enter
               </button>
             </div>
           </form>
