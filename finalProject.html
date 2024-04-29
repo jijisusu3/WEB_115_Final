@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEB-115 Final Project</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+<body>
+    <header>
+      <div>
+        <div class="header">
+          <h1>JS Fitness</h1>
+        </div>
+        <div class="banner">
+          <img src="./asset/finalBanner.png" alt="">
+        </div>
+      </div>
+    </header>
+
+    <div id="userInfoForm">
+      <div class="w3-container w3-green">
+        <h1>Make your plan</h1>
+      </div>
+      <form class="w3-container">
+        <p>
+          <label for="name">Name:</label>
+          <input class="w3-input" type="text" id="name" required><br>          
+        </p>
+        <p>
+          <label for="email">Email:</label>
+          <input class="w3-input" type="email" id="email" required><br>  
+        </p>
+        <p>
+          <label for="goal">Weekly Goal:</label>
+          <input class="w3-input" type="text" id="goal" required><br>  
+        </p>
+        <button type="reset" onclick="generateMealPlan()">Generate Meal Plan</button>
+      </form>
+    </div>
+      <div id="userInfo"></div>
+    <script src="projectJS.js"></script>
+</body>
+</html>
